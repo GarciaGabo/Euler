@@ -15,10 +15,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gabrielfcb.Euler"
     },
     "web": {
-      "bundler": "metro",
+      "bundler": "webpack",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "99a398c3-655b-4179-9c26-5f60aac6bc48"
+      }
     }
   }
 }
