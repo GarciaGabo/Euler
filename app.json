@@ -8,7 +8,6 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "platforms": ["web"],
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +19,7 @@
       "package": "com.gabrielfcb.Euler"
     },
     "web": {
-      "bundler": "webpack",
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
